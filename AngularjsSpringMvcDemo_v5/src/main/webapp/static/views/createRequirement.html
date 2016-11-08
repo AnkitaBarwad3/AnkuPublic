@@ -1,0 +1,97 @@
+view
+
+<!--  <h1>{{uid}}</h1> -->
+
+<!-- <div class="container" >
+		<section id="content">
+
+<form>
+description<input type="text" ng-model="requirement.description"><br>
+priority<input type="text" ng-model="requirement.priority"><br>
+shortTitle<input type="text" ng-model="requirement.shortTitle"><br>
+status<input type="text" ng-model="requirement.status"><br>
+title<input type="text" ng-model="requirement.title"><br>
+type<input type="text" ng-model="requirement.type"><br>
+version<input type="text" ng-model="requirement.version"><br>
+attachment<input type="file" ng-model="attachment"><button ng-click="addAttachments()">Add a Attachments</button><br>
+prerequisite<input type="text" ng-model="requirement.prerequisite"><br>
+elaboration<input type="text" ng-model="elaboration"><button ng-click="addElaborations()">Add a Elaboration</button><br>
+links<input type="text" ng-model="link"><button ng-click="addLink()">Add a links</button><br>
+<button ng-click="createRequirement()" >Create Requirement</button>
+<button ng-click="deleteRequirement()" >Delete Requirement</button>
+
+</form>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+<div class="container" >
+		<section id="content">
+
+<form>
+<table border="0" align="center" width="700px" style="padding: 2">
+  <tr >
+    <td>title</td>
+    <td><input type="text" ng-model="requirement.title"></td>
+  </tr>
+   <tr >
+    <td>shortTitle</td>
+    <td><input type="text" ng-model="requirement.shortTitle"></td>
+  </tr>
+  <tr >
+    <td>description</td>
+    <td><input type="text" ng-model="requirement.description"></td>
+  </tr>
+  <tr >
+    <td>priority</td>
+    <td><input type="text" ng-model="requirement.priority"></td>
+  </tr>
+ 
+  
+  <tr >
+    <td>version</td>
+    <td><input type="text" ng-model="requirement.version"></td>
+  </tr>
+   <tr >
+    <td>prerequisite</td>
+    <td><input type="text" ng-model="requirement.prerequisite"></td>
+  </tr>
+  <tr >
+    <td>attachment</td>
+    <td><input type="file" ng-model="attachment"></td>
+	 <td><button ng-click="addAttachments()">Add a Attachments</button></td>
+  </tr>
+  <tr >
+    <td>elaboration</td>
+    <td><input type="text" ng-model="elaboration"></td>
+	 <td><button ng-click="addElaborations()">Add a Elaboration</button></td>
+  </tr>
+  <tr >
+    <td>links</td>
+    <td><input type="text" ng-model="link"></td>
+	 <td><button ng-click="addLink()">Add a links</button></td>
+  </tr>
+ 
+  <tr >
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+<div><input type="submit" value="create Requirement"  ng-click="createRequirement()" ></div>
+</form>
+
+</section>
+		
+	</div>
+ 
+
+
+   
